@@ -523,7 +523,7 @@ html,body {
     font-size: 2.75rem;
     font-weight: 600;
     line-height: 130%;
-    margin: 0
+    margin: 0 48px 0 30px
 }
 
 @media screen and (max-width: 1599px) {
