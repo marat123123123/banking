@@ -136,16 +136,11 @@
       <h2>Какие суммы можно списать</h2>
       <div class="video-block__video" data-video="">
         <iframe class="video-block__frame" data-video-frame="" allow="clipboard-write; autoplay"
-          data-src="https://rutube.ru/play/embed/6fdac92ea96e7326f98e74280b95fe85" frameborder="0"> </iframe>
+          data-src=" " frameborder="0"> </iframe>
         <div class="video-block__image" data-video-image=""
-          data-lazy-bg="https://pic.rutubelist.ru/video/2024-10-07/1b/ff/1bff69d019e3a9ff92a01b7fbcab2604.jpg"
+          data-lazy-bg="./images/photo.jpg"
           itemprop="thumbnail" itemscope="" itemtype="https://schema.org/ImageObject"
-          style="background-image: url(&quot;https://pic.rutubelist.ru/video/2024-10-07/1b/ff/1bff69d019e3a9ff92a01b7fbcab2604.jpg&quot;);">
-
-          <meta itemprop="contentUrl"
-            content="https://pic.rutubelist.ru/video/2024-10-07/1b/ff/1bff69d019e3a9ff92a01b7fbcab2604.jpg">
-          <meta itemprop="width" content="640">
-          <meta itemprop="height" content="360">
+          style="background-image: url('../images/photo.jpg');">
 
           <div class="video-block__button" data-video-button=""> </div>
         </div>
@@ -405,25 +400,6 @@
 
     </div></div>
   </main>
-
-  <script>    // Ищем все аккордеоны
-document.querySelectorAll('.accordion').forEach((accordion) => {
-    const toggle = accordion.querySelector('[data-accordion-toggle]');
-    toggle.addEventListener('click', () => {
-        // Если уже открыт, закрываем
-        if (accordion.classList.contains('accordion--active')) {
-            accordion.classList.remove('accordion--active');
-        } else {
-            // Закрываем все другие аккордеоны
-            document.querySelectorAll('.accordion').forEach((item) => {
-                item.classList.remove('accordion--active');
-            });
-            // Открываем текущий
-            accordion.classList.add('accordion--active');
-        }
-    });
-});
-                </script>
 </body>
 
 </html>
