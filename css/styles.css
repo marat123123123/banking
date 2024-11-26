@@ -1,10 +1,10 @@
 @import url('https://fonts.cdnfonts.com/css/mulish');
-
+.main {margin:0 auto;}
 .main h1,.main .h1 {
     font-size: 2.75rem;
     font-weight: 600;
     line-height: 130%;
-    margin: 0
+    margin: 0 
 }
 
 @media screen and (max-width: 1599px) {
