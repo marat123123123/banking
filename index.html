@@ -405,6 +405,25 @@
 
     </div></div>
   </main>
+
+  <script>    // Ищем все аккордеоны
+document.querySelectorAll('.accordion').forEach((accordion) => {
+    const toggle = accordion.querySelector('[data-accordion-toggle]');
+    toggle.addEventListener('click', () => {
+        // Если уже открыт, закрываем
+        if (accordion.classList.contains('accordion--active')) {
+            accordion.classList.remove('accordion--active');
+        } else {
+            // Закрываем все другие аккордеоны
+            document.querySelectorAll('.accordion').forEach((item) => {
+                item.classList.remove('accordion--active');
+            });
+            // Открываем текущий
+            accordion.classList.add('accordion--active');
+        }
+    });
+});
+                </script>
 </body>
 
 </html>
