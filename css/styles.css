@@ -234,7 +234,7 @@ html,body {
     margin-bottom: 0
 }
 
-
+.main {margin-bottom:48px !important;}
 .small-arrow {
     width: 8px;
     height: 20px;
