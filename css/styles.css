@@ -177,10 +177,6 @@ html,body {
     cursor: pointer; 
 }
 
-.accordion__toggle:hover {
-    background-color: #eaeaea;
-}
-
 .accordion__btn {
     transform: rotate(0deg); 
     transition: transform 0.3s ease; 
