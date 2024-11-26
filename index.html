@@ -400,6 +400,22 @@
 
     </div></div>
   </main>
+
+  <script>
+document.querySelectorAll('.accordion').forEach((accordion) => {
+    const toggle = accordion.querySelector('[data-accordion-toggle]');
+    toggle.addEventListener('click', () => {
+          if (accordion.classList.contains('accordion--active')) {
+            accordion.classList.remove('accordion--active');
+        } else {
+               document.querySelectorAll('.accordion').forEach((item) => {
+                item.classList.remove('accordion--active');
+            });
+              accordion.classList.add('accordion--active');
+        }
+    });
+});    
+  </script>
 </body>
 
 </html>
