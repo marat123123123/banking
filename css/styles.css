@@ -163,6 +163,18 @@ html,body {
     word-break: normal
 }
 
+
+.main{
+    max-width: 850px;
+    width: 100%
+}
+
+@media screen and (max-width: 1024px) {
+    .main{
+        max-width:unset
+    }
+}
+
 @media screen and (max-width: 1024px) {
     body {
         padding-top:64px
@@ -461,65 +473,6 @@ html,body {
 @media screen and (max-width: 959px) {
     .main h2,.main .h2 {
         font-size:1.57rem
-    }
-}
-
-.main h3,.main .h3 {
-    font-size: 2rem;
-    font-weight: 600;
-    line-height: 130%;
-    margin: 0;
-    margin-bottom: 16px
-}
-
-@media screen and (max-width: 959px) {
-    .main h3,.main .h3 {
-        font-size:1.43rem
-    }
-}
-
-@media screen and (max-width: 575px) {
-    .main h3,.main .h3 {
-        margin-bottom:12px
-    }
-}
-
-.main h4,.main .h4 {
-    font-size: 1.75rem;
-    font-weight: 600;
-    line-height: 130%;
-    margin: 0
-}
-
-@media screen and (max-width: 959px) {
-    .main h4,.main .h4 {
-        font-size:1.29rem
-    }
-}
-
-.main h5,.main .h5 {
-    font-size: 1.5rem;
-    font-weight: 600;
-    line-height: 130%;
-    margin: 0
-}
-
-@media screen and (max-width: 959px) {
-    .main h5,.main .h5 {
-        font-size:1.14rem
-    }
-}
-
-.main h6,.main .h6 {
-    font-size: 1.25rem;
-    font-weight: 600;
-    line-height: 130%;
-    margin: 0
-}
-
-@media screen and (max-width: 959px) {
-    .main h6,.main .h6 {
-        font-size:1rem
     }
 }
 
