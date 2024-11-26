@@ -1,5 +1,75 @@
 @import url('https://fonts.cdnfonts.com/css/mulish');
 
+
+
+/* Стили для скрытого контента */
+.accordion__content {
+    height: 0; /* Скрываем содержимое */
+    overflow: hidden; /* Скрываем все, что выходит за границы */
+    transition: height 0.3s ease; /* Анимация изменения высоты */
+}
+
+/* Активный (раскрытый) аккордеон */
+.accordion--active .accordion__content {
+    height: auto; /* Автоматическая высота для раскрытия */
+}
+
+/* Стиль заголовков */
+.accordion__toggle {
+    cursor: pointer; /* Указываем, что элемент кликабельный */
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.accordion__toggle:hover {
+    background-color: #eaeaea;
+}
+
+/* Кнопка (иконка) раскрытия */
+.accordion__btn {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url('toggle-icon.svg') no-repeat center center;
+    background-size: contain;
+    float: right;
+    transform: rotate(0deg); /* Поворот по умолчанию */
+    transition: transform 0.3s ease; /* Анимация поворота */
+}
+
+/* Активное состояние кнопки */
+.accordion--active .accordion__btn {
+    transform: rotate(180deg); /* Поворот на 180 градусов */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .main h1,.main .h1 {
     font-size: 2.75rem;
     font-weight: 600;
