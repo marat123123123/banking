@@ -1,9 +1,4 @@
-@font-face {
-    font-family: "Mulish";
-    src: url("../fonts/Mulish.woff2") format("woff2");
-    font-display: swap;
-    font-weight: 1 999
-}
+
 .main {margin:0 auto;}
 .main h1,.main .h1 {
     font-size: 2.75rem;
@@ -104,7 +99,7 @@ body {
     font-style: normal;
     line-height: 1.5;
     height: 100%;
-    font-family: "Mulish",Arial,sans-serif;
+    font-family: "Montserrat", Arial, sans-serif;
     color: #1d1e1f;
     font-size: 1.25rem;
     font-weight: 400;
